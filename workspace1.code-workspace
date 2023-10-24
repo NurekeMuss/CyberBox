@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\header and banner"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "пример"
+    }
+}

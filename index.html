@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberBox</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" href="">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+<body>
+    <section>
+        <div class="sidebar">
+            <div class="logo-details">
+                <i class='bx bxl-c-plus-plus icon'></i>
+                <div class="logo_name">CyberBox</div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search...">
+                    <span class="tooltip">Search</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Kinds</span>
+                    </a>
+                    <span class="tooltip">Kinds</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user'></i>
+                        <span class="links_name">User</span>
+                    </a>
+                    <span class="tooltip">User</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-chat'></i>
+                        <span class="links_name">Messages</span>
+                    </a>
+                    <span class="tooltip">Messages</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-pie-chart-alt-2'></i>
+                        <span class="links_name">Analytics</span>
+                    </a>
+                    <span class="tooltip">Analytics</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-folder'></i>
+                        <span class="links_name">File Manager</span>
+                    </a>
+                    <span class="tooltip">Files</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cart-alt'></i>
+                        <span class="links_name">Order</span>
+                    </a>
+                    <span class="tooltip">Order</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-heart'></i>
+                        <span class="links_name">Saved</span>
+                    </a>
+                    <span class="tooltip">Saved</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cog'></i>
+                        <span class="links_name">Setting</span>
+                    </a>
+                    <span class="tooltip">Setting</span>
+                </li>
+                <li class="profile">
+                    <div class="profile-details">
+                        <img src="" alt="">
+                        <div class="name_job">
+                            <div class="name">User name</div>
+                            <div class="job">User job</div>
+                        </div>
+                    </div>
+                    <i class='bx bx-log-out' id="log_out"></i>
+                </li>
+            </ul>
+        </div>
+    <!-- WELCOME -->
+    <div class="container-dark">
+        <button onclick="myFunction()">Toggle dark mode</button>
+        <input type="checkbox" id="toggle">
+    </div>
+    <div class="all-dark">
+        <div class="container-dark">
+            <input type="checkbox" id="toggle">
+        </div>
+    </div>
+    <section class="home-section" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container">
+            <img width="105px" src="./images/logo.svg" alt="">
+            <img width="329px" src="./images/img1.svg" alt="" class="free">
+            <div class="inner">
+                <div class="borders">
+                    <div class="p">
+                        <p>Это киберспортивное комьюнити студентов <br> факультета «Киберспорт» образовательной
+                            <br>платформы Skillbox. Здесь развивают свои <br>навыки и практикуются начинающие игроки
+                            <br>и специалисты сферы совместно с опытными<br> наставниками из индустрии
+                        </p>
+                    </div>
+                    <h1 class="cybertext">CyberBox</h1>
+
+                    <h4 class="border-title1">от Skillbox & ESforce </h4>
+
+                    <div class="button">
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>Оставить заявку !
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- INTRO -->
+    <section class="container-offer" id="mainContent" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-sine">
+        <div class="flexboxfirst" data-aos="fade-down" data-aos-duration="650" data-aos-easing="ease-out-sine">
+            <img src="./images/cover.webp" alt="">
+        </div>
+        <div class="inner-container">
+            <h1>Самым быстрым – бесплатные <br> тренировки в подарок </h1>
+            <p>Успейте купить курс «Академия Dota 2» или «Академия CS:GO» <br> до 31 августа и получите 5 индивидуальных часовых тренировок <br>по выбранной дисциплине дополнительно. Наставник будет
+                <br>заниматься с вами лично: вы прокачаете слабые стороны<br> и получите ценные советы.
+            </p>
+        </div>
+
+
+    </section>
+    <!-- YOULEARN -->
+    <section class="you_learn">
+        <div class="you_container" data-aos="fade-down-left" data-aos-duration="500" data-aos-easing="ease-in-sine">
+            <div class="you_inner">
+                <div class="you_borders">
+                    <div class="you_content">
+
+                        <div class="you_list">
+                            <div class="you_title">
+                                <h1>Бесплатное участие</h1>
+                            </div>
+                            <div class="you_text">
+                                <h2>o Только для студентов<br> Skillbox </h2>
+                            </div>
+                        </div>
+
+                        <div class="you_list">
+                            <div class="you_title">
+                                <h1>Собственные лиги</h1>
+                            </div>
+                            <div class="you_text">
+                                <h2>и турниры для<br> оттачивания навыков </h2>
+                            </div>
+                        </div>
+
+                        <div class="you_list">
+                            <div class="you_title">
+                                <h2>Персональные <br> тренировки</h2>
+                            </div>
+                            <div class="you_text">
+                                <h1>с эксперементами</h1>
+                            </div>
+                        </div>
+
+                        <div class="you_list">
+                            <div class="you_title">
+                                <h2>Преподаватели из<br> Virtus.pro, RuHub</h2>
+                            </div>
+                            <div class="you_text">
+                                <h1>и не только</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-text" data-aos="zoom-in-up" data-aos-duration="650" data-aos-easing="ease-in">
+        <div class="inner-text">
+            <div class="contentfirst">
+                <div class="hover">
+
+                    <h1 class="nomer">Что это <br> такое</h1>
+                    <div class="arrow-hover">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content">
+                        <h1 class="">CyberBox - первая российская киберспортивная экосистема. Здесь студентыSkillbox попадут в крупное гейм - комьюнити, смогут развить навыки, которые получат на курсах по киберспорту . познакомятся лично с экспертами игровойиндустрии
+                            и переймут их опыт. Академия помогает студентам получить достаточно навыков, чтобы осуществить главную мечту - пробиться в мировой киберспорт.
+                        </h1>
+                        <div class="contentp">
+                            <h1>Главный партнёракадемии - холдинг ESforce.В числе активов холдинга: крупнейшее СМИ стран СНГ о киберспорте Cybersport. ru, студия трансляций RuHub, организатор major-турниров Epic Esports Events, киберспортивные команды Virtus.
+                                pro и VP. Prodigy - их представители преподают в CyberBox.
+                            </h1>
+                            <div class="images">
+                                <img src="./images/вп.webp" alt="">
+                                <img class="img2" src="./images/ефорс.webp" alt="">
+                                <img src="./images/рухаб.png" alt="" width="50px">
+                                <img src="./images/хз.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="whocan">
+        <div class="conteiner-cards" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+            <div class="animat">
+                <h1 class="iii">Кто может <br> участвовать</h1>
+                <div class="arrow">
+                    <div class="arrow-down">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="all-cards">
+                <div class="inner-cards" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="flexbox-cards">
+                        <div class="flexbox-item">
+                            <div class="img-card img1">
+                                <img src="./images/filter_img1.webp" alt="">
+                            </div>
+                            <div class="text-card">
+                                <h1>
+                                    Игроки в Dota 2 и CS:GO
+                                </h1>
+                                <h2>
+                                    Студенты курсов «Академия Dota 2» и «Академия CS:GO». На курсе мы с нуля выращиваем игроков и тренеров уровня выше среднего. А в академии вы разовьёте стратегические и тактические навыки – и отточите их на турнирах.
+                                </h2>
+                            </div>
+
+                            <!-- <div class="flexbox-item"> -->
+                            <div class="img-card">
+                                <img src="./images/filter_img2.webp" alt="">
+                            </div>
+                            <div class="text-card">
+                                <h1>
+                                    Киберспортивные комментаторы
+                                </h1>
+                                <h2>
+                                    Студенты курса «Комментатор в киберспорте». Даже если вы раньше не пробовали комментировать — после курса и практики в академии будете готовы зажигательно сопровождать крупные игровые турниры.
+                                </h2>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="flexbox-cards">
+                        <div class="flexbox-item">
+                            <div class="img img2">
+                                <img src="./images/filter_img3.webp" alt="" class="filter_img2">
+                            </div>
+                            <div class="text-card">
+                                <div class="text-card">
+                                    <h1>
+                                        Киберспортивные менеджеры
+                                    </h1>
+                                    <h2>
+                                        Все студенты профессии "Менеджмент в киберспорте". Курсы научат вас организовывать игровые мероприятия, продвигать их и формировать киберспортивные команды. А участие в академии поможет отработать навыки на практике.
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="img img2">
+                                <img src="./images/filter_img4.webp" alt="" class="filter_img2">
+                            </div>
+                            <div class="text-card">
+                                <div class="text-card">
+                                    <h1>
+                                        Стримеры и блогеры
+                                    </h1>
+                                    <h2>
+                                        Студенты курса "Стример" и "Стрим-блогер". Курсы помогут помогут вам создать эффектный образ, научат работать с аудиторией и монетизировать видео-контент. А в академии вы найдете единомышленников, сможете сделать коллаборацию и добавить своему каналу
+                                        новых просмотров.
+                                    </h2>
+                                </div>
+                            </div>
+
+                            <!-- <div class="flexbox-item"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+    <section class="form">
+
+        <div class="conteiner-form" data-aos="fade-right" data-aos-duration="650">
+            <form data-aos="fade-left" data-aos-duration="900">
+                <input type="text" id="username" placeholder="Enter your username">
+                <label for="username" onclick="expand(this)">Username</label>
+
+                <input type="text" id="password" placeholder="Enter your number">
+                <label for="password" onclick="expand(this)">Telephone</label>
+
+                <input type="text" id="email" placeholder="Enter your email">
+                <label for="email" onclick="expand(this)">Email</label>
+
+                <a href="" class="btn-neon">
+                    <h1 class="sumbit">Sumbit</h1>
+                    <svg height="5" width="120">
+                        <polyline points="0,0 180,0 180,50 0,50 0,00">
+                        </polyline>
+                    </svg>
+                </a>
+            </form>
+            <div class="content-footer">
+                <div class="all-things">
+                    <h1>Погрузись в мир <br> кибеспорта </h1>
+                    <div class="inner-form">
+                        <h2>Стоимость курсов от 3250 Р/мес </h2>
+                    </div>
+
+                    <span class="check">
+                        <div class="div-text">
+                            <div class="div">
+                                <h1>Я согласен с условиями обработки персональных данных
+                                </h1>
+                                <div class="in">
+                                    <input type="checkbox">
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fOOTER -->
+    <section class="footer">
+        <div class="conteiner-fotter">
+            <div class="Inner-блок ">
+                <div class="Flexbox" data-aos="zoom-in-up" data-aos-duration="650">
+                    <div class="text-flex">
+                        <div class="p-charg">
+                            <p class="texr-one"> г. ?????, ??????, ?????, ????? </p>
+                        </div>
+                        <div class="Email-number">
+                            <p class="texr-two"> <b>8 (800) 222-65-21</b></p><br>
+                            <p class="texr-thee">hello@skillbox.ru</p>
+                        </div>
+                        <div class="text-icons">
+                            <img src="./images/Runet.svg" alt="" class="koin-logoRu">
+                            <p class="text-four">Премия Рунета<br>2020, 2019, 2018</p>
+                        </div>
+                        <div class="text-icons">
+                            <img src="./images/SKO_white.svg" alt="" class="koin-logoRu2">
+                            <p class="text-five">Участник<br>Skolkovo</p>
+                        </div>
+                        <div class="inner-text-six">
+                            <p class="text-six">Договор оферты</p>
+                        </div>
+                        <div class="inner-text-six">
+                            <p class="text-seven">Политика конфиденциальности</p>
+                        </div>
+                    </div>
+                    <div class="detals">
+
+                    </div>
+
+                    <p class="p-class"> © 2020 Skillbox</p>
+                </div>
+                <div class="wrapper" data-aos="zoom-in-down" data-aos-duration="0">
+                    <div class="icon facebook">
+                        <div class="tooltip">Facebook</div>
+                        <span><i class="fa fa-facebook"></i></span>
+                    </div>
+                    <div class="icon twitter">
+                        <div class="tooltip">Vk</div>
+                        <span><i class="fa fa-vk"></i></span>
+                    </div >
+                    <div class="icon instagram">
+                        <div class="tooltip">Instagram</div>
+                        <span><i class="fa fa-instagram"></i></span>
+                    </div>
+                    <div class="icon github">
+                        <div class="tooltip">Github</div>
+                        <span><i class="fa fa-github"></i></span>
+                    </div>
+                    <div class="icon youtube">
+                        <div class="tooltip">Youtube</div>
+                        <span><i class="fa fa-youtube"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fOOTER END -->
+    <script src="sricp.js"></script>
+     
+</body>
+</html>

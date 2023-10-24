@@ -1,0 +1,127 @@
+  @media (max-width: 750px) {
+      .container {
+          width: 900px;
+      }
+      .flexboxfirst img {
+          width: 450px;
+      }
+      .free {
+          float: left;
+          margin-top: -40px;
+      }
+      .borders h1 {
+          font-size: 85px;
+      }
+      .border-title1 {
+          float: none;
+      }
+      .p {
+          float: left;
+      }
+      .borders {
+          width: 550px;
+          padding: 25px 0;
+      }
+      .inner {
+          padding: 0;
+      }
+      .button a {
+          float: none;
+      }
+      .borders p {
+          padding: 0;
+      }
+      .flexboxfirst {
+          padding: 50px;
+          float: left;
+      }
+      .container-offer {
+          width: 700px;
+      }
+      .you_learn {
+          padding-top: 550px;
+      }
+      .you_borders {
+          float: left;
+          width: 550px;
+          height: 550px;
+      }
+      .you_content {
+          display: block;
+      }
+      .inner-text {
+          padding-top: 550px;
+          padding-left: 45px;
+      }
+      .contentfirst {
+          display: block;
+      }
+      .flexbox {
+          display: block;
+      }
+      .you_inner {
+          padding-top: 55px;
+          padding-left: 45px;
+      }
+      .images {
+          width: 450px;
+      }
+      .content {
+          display: block;
+          width: 450px;
+      }
+      .contentp {
+          display: block;
+          padding: 50px 0;
+      }
+      .inner-cards {
+          width: 100%;
+          display: block;
+      }
+      .flexbox-cards {
+          display: block;
+          padding-left: 150px;
+      }
+      .conteiner-cards {
+          width: 1050px;
+          display: inline;
+      }
+      .flexbox-item {
+          display: block;
+      }
+      .text-card {
+          width: 300px;
+      }
+      .img-card {
+          padding: 0 45px;
+      }
+      .filter_img2 {
+          padding: 0 45px;
+      }
+      .animat {
+          align-items: center;
+          padding-left: 170px;
+      }
+      .conteiner-form {
+          width: 600px;
+      }
+      .conteiner-fotter {
+          padding: 150px 0;
+      }
+      form {
+          margin: 300px 0;
+          padding-left: 0;
+      }
+      .koin-logoRu {
+          display: none;
+      }
+      .text-four {
+          display: none;
+      }
+      .koin-logoRu2 {
+          display: none;
+      }
+      .text-five {
+          display: none;
+      }
+  }
